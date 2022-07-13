@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #efedd6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin: 20px;
+}
+.box{
+    background-color: #9535f0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 200px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #9535f0;
+    transition: transform 0.8s ease;
+}
+
+.box h2{
+    font-size: 45px;
+}
